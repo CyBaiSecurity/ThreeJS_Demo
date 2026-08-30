@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Three.js Demo — Rotating Cube</title>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+    html, body {
+      margin: 0;
+      height: 100%;
+      overflow: hidden;
+      background: #0b0e14;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    #info {
+      position: fixed;
+      top: 1rem;
+      left: 1rem;
+      z-index: 10;
+      color: #aebbcf;
+      font-size: 0.8rem;
+      line-height: 1.6;
+      background: rgba(11, 14, 20, 0.7);
+      padding: 0.75rem 1rem;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 6px;
+      pointer-events: none;
+      user-select: none;
+    }
+    #info b { color: #7fd1ff; }
+  </style>
+</head>
+<body>
+  <div id="info">
+    <b>Three.js Demo</b> &mdash; rotating cube<br />
+    ambient + directional lighting &bull; WebGL
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
