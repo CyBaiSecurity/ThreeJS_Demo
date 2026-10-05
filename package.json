@@ -1,0 +1,9 @@
+{
+  "name": "threejs-demo",
+  "version": "1.0.0",
+  "description": "Minimal Three.js rotating-cube demo, served statically.",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 8000 --bind 0.0.0.0"
+  }
+}
